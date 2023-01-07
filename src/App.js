@@ -6,7 +6,6 @@ import Register from "./pages/Register";
 import About from "./pages/About";
 import Layout from "./pages/Layout";
 import NavBar from "./pages/Navbar";
-import Users from "./pages/User/Users";
 import User from "./pages/User/User";
 
 const ROLES = {
@@ -25,7 +24,6 @@ function App() {
             <Route path="About" element={<About />} />
             <Route path="Register" element={<Register />} />
             <Route path="Login" element={<Login />} />
-            <Route path="Users" element={<Users />} />
             <Route path="User/:id" element={<User />} />
 
           </Route>
